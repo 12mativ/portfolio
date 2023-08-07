@@ -17,14 +17,6 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang='en'>
       <Head>
-        <title>
-          Mativ's portfolio
-        </title>
-        <meta
-          name="portfolio"
-          content="Mativ's portfolio"
-          key="portfolio"
-        />
         <meta name="google-site-verification" content="9KfTN60UutIfDgfF4fdhyP7LftxyqAqc4Snu0nVOyl0" />
       </Head>
       <body className={font.className}>
