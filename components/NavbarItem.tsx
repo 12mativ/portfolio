@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
-import {Icon} from 'react-icons'
+import {IconType} from 'react-icons'
 
 export interface NavbarItemProps {
-  icon: Icon
+  icon: IconType
   label: string
   href: string
 }
