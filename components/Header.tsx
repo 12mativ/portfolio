@@ -16,7 +16,7 @@ export interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({children}) => {
   const [mounted, setMounted] = useState(false)
-  const {theme, setTheme} = useTheme()
+  const {theme, setTheme} = useTheme<'light | dark'>()
 
   const links = useMemo(
     () => [
@@ -90,7 +90,7 @@ const Header: React.FC<HeaderProps> = ({children}) => {
               <BsFillMoonFill
                 size={23}
                 onClick={() =>
-                  theme == 'dark' ? setTheme('light') : setTheme('dark')
+                  theme === 'dark' ? setTheme('light') : setTheme('dark')
                 }
                 role='button'
                 className='md:mr-4'
