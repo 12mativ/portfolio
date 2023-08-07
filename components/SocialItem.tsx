@@ -1,9 +1,9 @@
 import React from 'react'
-import {Icon} from "react-icons";
+import {IconType} from "react-icons";
 import Link from "next/link";
 
 interface SocialItemProps {
-  icon: Icon
+  icon: IconType
   label: string
   href: string
 }
