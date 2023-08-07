@@ -6,7 +6,9 @@ export interface Project {
   id: uuidv4
   name: string
   description: string
-  image: string
+  image: {
+    src: string
+  }
 }
 
 interface useProjectsReturn {
