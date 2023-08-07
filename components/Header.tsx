@@ -99,7 +99,7 @@ const Header: React.FC<HeaderProps> = ({children}) => {
               <FiSun
                 size={23}
                 onClick={() =>
-                  theme == 'dark' ? setTheme('light') : setTheme('dark')
+                  theme === 'dark' ? setTheme('light') : setTheme('dark')
                 }
                 role='button'
                 className='md:mr-4'
