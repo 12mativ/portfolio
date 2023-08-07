@@ -1,15 +1,13 @@
+import Projects from '@/components/Projects'
+import About from "@/components/About";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export default function Home() {
   return (
-    <div className='
-      bg-neutral-900
-      rounded-lg
-      h-full
-      w-full
-      overflow-hidden
-      overflow-y-auto
-    '>
-      Hello
+    <div className='flex flex-col items-center gap-y-6 scroll-m-6' id='top'>
+      <ScrollToTop />
+      <About/>
+      <Projects />
     </div>
   )
 }
