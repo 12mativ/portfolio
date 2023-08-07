@@ -89,18 +89,14 @@ const Header: React.FC<HeaderProps> = ({children}) => {
             {theme === 'light' ? (
               <BsFillMoonFill
                 size={23}
-                onClick={() =>
-                  theme === 'dark' ? setTheme('light') : setTheme('dark')
-                }
+                onClick={() => setTheme('dark')}
                 role='button'
                 className='md:mr-4'
               />
             ) : (
               <FiSun
                 size={23}
-                onClick={() =>
-                  theme === 'dark' ? setTheme('light') : setTheme('dark')
-                }
+                onClick={() => setTheme('light')}
                 role='button'
                 className='md:mr-4'
               />
