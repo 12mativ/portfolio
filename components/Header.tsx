@@ -16,7 +16,7 @@ export interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({children}) => {
   const [mounted, setMounted] = useState(false)
-  const {theme, setTheme} = useTheme<'light | dark'>()
+  const {theme, setTheme} = useTheme()
 
   const links = useMemo(
     () => [
