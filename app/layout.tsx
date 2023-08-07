@@ -3,7 +3,7 @@ import type {Metadata} from 'next'
 import React from 'react'
 import {Figtree} from 'next/font/google'
 import Header from '@/components/Header'
-import {CustomThemeProvider} from "@/providers/ThemeProvider";
+import CustomThemeProvider from "@/providers/ThemeProvider";
 
 const font = Figtree({subsets: ['latin']})
 
