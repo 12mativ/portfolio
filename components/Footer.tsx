@@ -37,6 +37,7 @@ const Footer = () => {
         dark:bg-violet-800
         text-white
         p-4
+
       '
       id='contacts'
     >

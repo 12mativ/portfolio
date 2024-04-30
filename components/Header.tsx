@@ -9,6 +9,7 @@ import {BiSolidContact} from 'react-icons/bi'
 import {useTheme} from 'next-themes'
 import {FiSun} from 'react-icons/fi'
 import {BsFillMoonFill} from 'react-icons/bs'
+import {GiAchievement} from 'react-icons/gi'
 
 export interface HeaderProps {
   children: React.ReactNode
@@ -29,6 +30,11 @@ const Header: React.FC<HeaderProps> = ({children}) => {
         icon: MdOutlineDescription,
         label: 'Обо мне',
         href: '#about',
+      },
+      {
+        icon: GiAchievement,
+        label: 'Достижения',
+        href: '#achievements',
       },
       {
         icon: AiOutlineLaptop,
@@ -69,6 +75,7 @@ const Header: React.FC<HeaderProps> = ({children}) => {
             w-full
             px-4
             pt-4
+            z-50
           '
         >
           <p
@@ -104,7 +111,7 @@ const Header: React.FC<HeaderProps> = ({children}) => {
             <nav
               className='
               hidden
-              md:flex
+              lg:flex
               items-center
               gap-x-2
             '

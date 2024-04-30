@@ -38,7 +38,7 @@ const ScrollToTop = () => {
        right-2
        text-black
        dark:text-white
-    `, isVisible ? 'md:hidden' : 'hidden md:hidden')}
+    `, isVisible ? 'lg:hidden' : 'hidden lg:hidden')}
     >
       <button
         type='button'

@@ -18,10 +18,7 @@ const About = () => {
         Кто я?
       </p>
       <p className='text-center'>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab amet
-        atque delectus dolor facilis impedit labore maiores nobis nostrum
-        officiis perspiciatis possimus, quam saepe sequi similique tenetur ullam
-        voluptatem.
+        Я - программист.
       </p>
     </div>
   )
